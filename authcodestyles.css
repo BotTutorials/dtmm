@@ -20,6 +20,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: var(--font-size-large);
     line-height: var(--line-height-large);
+    background: var(--color-black-primary)
 }
 
 .logo {
