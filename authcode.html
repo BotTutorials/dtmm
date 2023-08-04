@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>gcloud CLI Remote Login</title>
+  <link rel="icon" href="https://lh3.googleusercontent.com/KaU6SyiIpDKe4tyGPgt7yzGVTsfMqBvP9bL24o_4M58puYDO-nY8-BazrNk3RyhRFJA">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="authcodestyles.css">
+  <script src="authcodescripts.js"></script>
+</head>
+<body onload="onload()">
+    <img
+        src="https://lh3.googleusercontent.com/KaU6SyiIpDKe4tyGPgt7yzGVTsfMqBvP9bL24o_4M58puYDO-nY8-BazrNk3RyhRFJA"
+        alt="gcloud CLI logo"
+        class="logo">
+    <h1>Sign in to the gcloud CLI</h1>
+    <p>You are seeing this page because you ran the following command in the gcloud CLI from this or another machine. If this is not the case, close this tab.</p>
+    <code>gcloud auth login --no-launch-browser</code>
+    <p>Enter the following verification code in gcloud CLI on the machine you want to log into. This is a credential <b>similar to your password</b> and should not be shared with others.</p>
+    <div>
+        <code class="auth-code"></code>
+    </div>
+    <button class="copy" aria-live="assertive">Copy</button>
+    <div class="hint">
+        You can close this tab when you’re done.
+    </div>
+</body>
+</html>
