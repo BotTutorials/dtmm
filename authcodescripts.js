@@ -27,4 +27,4 @@ function setupCopyButton(button, text) {
             button.setAttribute("aria-live", "assertive");
         }, 2000);
     });
-}%
+}
